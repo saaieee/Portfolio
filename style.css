@@ -1,0 +1,138 @@
+:root {
+    --main-font-light: 'Molde Expanded Light', 'Molde Expanded', sans-serif;
+    --main-font-bold: 'Molde Expanded Bold', 'Molde Expanded', sans-serif;
+    --main-font-heavy: 'Molde Expanded Heavy', 'Molde Expanded', sans-serif;
+    --main-font-heavy-italics: 'Molde Expanded Heavy Italic', 'Molde Expanded', sans-serif;
+ 
+
+}
+
+body {
+    margin: 0em;
+    padding: 0em;
+}
+
+.container {
+    padding: 40px; 
+}
+
+a {
+    color: inherit; 
+    text-decoration: none; 
+}
+
+.saai {
+    font-family: var(--main-font-heavy);
+    color: #836b2b;
+    font-size: 50.98px;
+}
+
+h1 { font-size: 30px;}
+  
+
+.page1 {
+    background-image: url("./img/pg1background.jpg") ;
+    background-size: cover;
+    position: relative;
+   
+}
+
+
+.section1 { font-family: var(--main-font-light);
+    display: inline-block;
+  
+
+}
+
+
+.inline
+{display: inline;}
+
+.secondaryfont
+{
+    font-style: italic ;
+     
+}
+
+.aboutme {font-size: 22px}
+
+
+.whoyou {
+   font-family: var(--main-font-heavy-italics);
+   font-size: 18px;
+   color: #cfcaca ;
+  
+}
+
+.button {
+    width: 100%;
+    display: block;
+    padding: 10px 20px;
+    background-color: #836b2b;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: var(--main-font-light);
+    font-size: 16px;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #e4bb4b;
+}
+
+.button-container {
+    width: 80px;
+}
+
+.image-container {
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+}
+
+.image-container img {
+    margin-bottom: 10px; 
+}
+
+.image-container img:nth-child(2) {
+    width : 500px
+ }
+
+ .image-container .first-img {
+    position: relative;
+    top: 180px;
+    width: 100px;
+}
+
+.image-container .third-img {
+    position: absolute;
+    right: unset;
+    left: 9px;
+    top: 460px ;
+    width: 100px
+}
+
+
+
+img {  width: 70px;} 
+
+.navbar { 
+display: flex;
+align-items: center ;
+justify-content: space-between;
+list-style: none;
+margin-top: 0em;
+padding-top: 1em;
+padding-left: 700px;
+padding-right: 17px;
+font-size: 120%;
+}
+
