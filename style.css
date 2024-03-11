@@ -115,6 +115,7 @@ h1 { font-size: 30px;}
 }
 
 
+
 .image-container img {
     margin-bottom: 10px; 
 }
@@ -137,59 +138,51 @@ h1 { font-size: 30px;}
     position: absolute;
     left: 346px;
     top: 224px ;
-    width: 55px
+    width: 55px 
+}
+
+.image-container2{display: flex;
+}
+
+#headlighton1 {
+position: absolute;
+right: 123px;
+width: 190px;
+top: 142px;    
+background: transparent;
+}
+
+
+#headlighton2 {
+position: absolute;
+right: -32px;
+width: 140px;
+top: 168.5px;    
+
 }
 
 
 
-
-
- /*
-@keyframes moveAround {
-    0% {
-        transform: translateX(0) translateY(0);
-    }
-  
-    50% {
-        transform: translateX(-8px) translateY(+5px);
-    }
-    100% {
-        transform: translateX(0) translateY(0);
-    }
+@keyframes fadeInOut {
+    0%, 100% {opacity: 0.1;}
+   25%, 75% {opacity: 1;}
 }
-@keyframes moveAround2 {
-    0% {
-        transform: translateX(0) translateY(0);
-    }
-  
-    50% {
-        transform: translateX(+10px) translateY(-5px);
-    }
-    100% {
-        transform: translateX(0) translateY(0);
-    }
+@keyframes fadeInOut2 {
+    0%, 100%, 100% {opacity: 0.1;}
+   25%, 75% {opacity: 1;}
 }
 
-.first-img {
-    animation: moveAround 3s infinite; 
-}
-.third-img {
-    animation: moveAround2 3s infinite; 
-}
+#headlighton1 {
+    animation: fadeInOut 1s infinite; }
+#headlighton2 {
+    animation: fadeInOut2 1s infinite; }
 
 
-@keyframes rotateClockwise {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
-}
-.second-img {
-    animation: rotateClockwise 90s linear infinite; 
-}
-*/
+#headlighton1:hover,
+#headlighton2:hover {
+    animation-play-state: paused;
+opacity: 1;}
+
 
 
 .navbar { 
