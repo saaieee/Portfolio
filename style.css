@@ -9,10 +9,11 @@
 }
 
 
-
 body {
     margin: 0em;
     padding: 0em;
+    
+
 }
 
 .color
@@ -84,7 +85,8 @@ background-image: url("./img/navbar.png");
     font-size: 73.98px;
 }
 
-h1 { font-size: 30px;}
+h1 { font-size: 30px;
+}
   
 
 .page1 {
@@ -181,8 +183,7 @@ h1 { font-size: 30px;}
 
 
 
-.image-container2{display: flex;
-}
+
 
 #headlighton1 {
 position: absolute;
@@ -223,14 +224,29 @@ top: 170px;
     animation-play-state: paused;
 opacity: 1;}
 
+.scrolldown
+{
+    position: relative;
+    width: 50px;
+    background-color: black;
+    border-radius: 100%;
+}
+.scrollcontainer
+{
+    display: flex;
+    justify-content: center;
+ 
+}
+
 
 @media only screen and (max-width: 1300px) and (min-width: 1000px){
     .image-container {
         position: absolute;
-        top: 30%;
+        top:30%;
         right: 2%;
+        margin: 0em;
+            }
 
-    }
 
     .section2{
         padding-right: 400px;
@@ -245,11 +261,10 @@ opacity: 1;}
 @media only screen and (max-width: 1000px) and (min-width: 872px) {
     .image-container {
         position: absolute;
-        top: 85%;
+        top: 75%;
         right: 26%;
 
     }
-
      .button {
         position: absolute;
         left: 380px;
@@ -273,15 +288,18 @@ opacity: 1;}
         margin: 0 0 0 -205px;
         padding: 0em;
     }
+
+    .scrolldown {opacity: 0;}
     
 }
  @media only screen and (max-width: 872px) {
     .image-container {
         position: absolute;
-        top: 85%;
+        top: 77%;
         right: 8%;
 
     }
+
 
      .button {
         position: absolute;
@@ -292,7 +310,7 @@ opacity: 1;}
 
 
     .section2{
-        padding-top: 88px;
+        padding-top: 45px;
         padding-left: 150px;
         margin: 0;
         text-align: center;
@@ -303,9 +321,123 @@ opacity: 1;}
     }
     .underline {
         position: absolute;
-        top: 150px;
+        top: 110px;
         margin: 0 0 0 -100px;
         padding: 0em;
     }
+    .scrolldown {opacity: 0;}
 } 
+
+
+ .page2 {
+    background-image: url("./img/pg2background.jpg") ;
+    background-size: cover;
+    position:relative ;
+    margin: 0;
+    padding: 0;
+    color: white;
+    height: 100vh
+}
+
+.mainfont {
+    font-family: var(--main-font-bold);
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    margin: 0 0 1em 0;
+    padding-top: 2em;
+}
+
+
+.image-container2 {
+
+        position: absolute;
+        display: block;
+        flex-direction: row;
+        align-items: center;
+        left: 9rem;        
+}
+
+
+.image-container2 img {
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.image-container2 img:hover {
+    transform: translateY(-5%);
+}
+
+
+.frontend{
+    position: absolute;
+    width: 23rem;
+    left: 180px;
+    top: 2px;
+
+}
+.design{
+    position: absolute;
+    width: 12rem;
+    top: -20px;
+    left: 550px;
+}
+.backend{
+    position: absolute;
+    width: 17.6rem;
+    left: 750px;
+}
+
+.skills {
+    font-size: 26px;
+    font-family: var(--main-font-light) ;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+}
+
+.frontendtxt
+{
+    position: absolute;
+    left: 26rem;
+    top: 26rem; 
+}
+
+.frontendtxt li
+{ border-left: 1px solid white;
+    padding-left: 1em;}
+
+.designtxt
+{
+    position: absolute;
+    left: 45rem; top: 26rem;
+}
+.designtxt li {border-left: 1px solid white;
+    padding-left: 1em;}
+
+.backendtxt
+{
+    position: absolute;
+    left: 59rem; top: 26rem;
+}
+.backendtxt li {border-left: 1px solid white;
+padding-left: 1em;}
+
+
+.skills li {
+    font-size: 18px;
+    list-style-type: none;
+    padding-top: .4em;
+} 
+.skills div {
+    margin-right: 4em;
+} 
+
+
+
+
+
+
 
