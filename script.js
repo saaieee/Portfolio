@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const scrollLinks = document.querySelectorAll('.scrollcontainer a');
+    const scrollLinks = document.querySelectorAll('.scrollcontainer a, .navbar a');
 
     scrollLinks.forEach(link => {
         link.addEventListener('click', function(e) {

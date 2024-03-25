@@ -21,10 +21,12 @@ body {
 
 a {
     color: inherit; 
-    text-decoration: none; 
+    text-decoration: none;
 }
 
-.navbar li {
+
+
+ .navbar li {
     transition-property: transform;
     transition-duration: 0.3s;
     transition-timing-function: ease;
@@ -33,8 +35,7 @@ a {
 
 .navbar li:hover {
     transform: translateY(-4px);
-}
-
+} 
 .logo
 { width: 35px;
     margin-left:-660px ;
@@ -93,6 +94,8 @@ h1 { font-size: 30px;
     background-image: url("./img/pg1background.jpg") ;
     background-size: cover;
     position: relative;
+    
+
    
 }
 
@@ -341,13 +344,15 @@ opacity: 1;}
 
 .mainfont {
     font-family: var(--main-font-bold);
+}
+
+.Technicalskills {
     display: flex;
     justify-content: center;
     font-size: 36px;
     margin: 0 0 1em 0;
     padding-top: 1em;
 }
-
 
 .image-container2 {
 
@@ -436,8 +441,42 @@ padding-left: 1em;}
 } 
 
 
+.page3 {
+    background-image: url("./img/pg3background.jpg") ;
+    background-size: cover;
+    position:relative ;
+    margin: 0;
+    padding: 0;
+    color: white;
+    height: 100vh
+}
 
+.projectfont {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 36px;
+    margin: 0 0 1em 0;
+    padding: 1em 0 0 11em;
+}
+.projects {
+    margin: 0;
+    padding: 0 0 0 25rem;
+    font-family: var(--main-font-light);
+    font-size: 18px;
+}
 
+.projects img {
+    width: 20rem;
+    border-radius: 3%;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;   
+}
+
+.projects img:hover {
+    transform: translateY(-5%);
+}
 
 
 
