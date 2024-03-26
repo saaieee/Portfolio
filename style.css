@@ -139,15 +139,12 @@ h1 { font-size: 30px;
     text-decoration: none;
     border: none;
     border-radius: 5px;
-    cursor: pointer;
     font-family: var(--main-font-light);
     font-size: 16px;
-    text-align: center;
-    
     transition-property: transform;
     transition-duration: 0.3s;
-    transition-timing-function: ease;
-    transition-delay:0s; 
+    
+     
 }
 
 .button:hover {
@@ -478,5 +475,92 @@ padding-left: 1em;}
     transform: translateY(-5%);
 }
 
+.page4 {
+    background-image: url("./img/pg4background.jpg") ;
+    background-size: cover;
+    position:relative ;
+    margin: 0;
+    padding: 0;
+    color: black;
+    height: 100vh;
+    font-family: var(--main-font-light);
+    
+}
 
 
+.education {
+    text-align: center;
+    padding-left: 5em;
+    font-size: 15px;
+}
+.years {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+
+.years2 p {
+    margin-bottom:7em
+}
+
+
+.verticalline {
+    width: 2px; 
+    height: 74%; 
+    background-color: black;  
+    margin: auto;
+    position: absolute;
+    top: 53%; 
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.omega {
+    position: absolute;
+    bottom:  23.5em;
+    left: 15em;
+}
+
+.curly
+{font-size: 8em;
+position: absolute;
+left: 3.6em;
+top: -.3em;}
+.curly2
+{font-size: 7em;
+position: absolute;
+left: 4.15em;
+top: -.24em;}
+.curly3
+{font-size: 33em;
+position: absolute;
+left: -.3em;
+top: -0.7em;}
+
+.james {
+    position: absolute;
+    bottom:  17em;
+    left: 15em;
+    
+}
+.teakadai {
+    position: absolute;
+    bottom:  17em;
+    left: 60em;
+}
+
+
+.page5 {
+    background-image: url("./img/pg5background.jpg") ;
+    background-size: cover;
+    position:relative ;
+    margin: 0;
+    padding: 0;
+    color: white;
+    height: 100vh;
+    font-family: var(--main-font-light);
+    
+}
