@@ -291,6 +291,7 @@
 
     .frontend{
         position: absolute;
+        
         width: 23rem;
         left: 180px;
         top: 2px;
@@ -298,13 +299,15 @@
     }
     .design{
         position: absolute;
-        width: 12rem;
+        width:12rem;
+        
         top: -20px;
         left: 550px;
     }
     .backend{
         position: absolute;
-        width: 17.6rem;
+        width:17.6rem;
+        
         left: 750px;
     }
 
@@ -323,7 +326,7 @@
         position: absolute;
         left: 26rem;
         top: 24rem; 
-        font-size: clamp(13px, 2.5vw, 26px);
+        font-size: clamp(16px, 2.5vw, 26px);
     }
 
     .frontendtxt li
@@ -334,7 +337,7 @@
     {
         position: absolute;
         left: 45rem; top: 24rem;
-        font-size: clamp(13px, 2.5vw, 26px);
+        font-size: clamp(16px, 2.5vw, 26px);
     }
     .designtxt li {border-left: 1px solid white;
         padding-left: 1em;
@@ -344,7 +347,8 @@
     {
         position: absolute;
         left: 59rem; top: 24rem;
-        font-size: clamp(13px, 2.5vw, 26px);
+        font-size: clamp(16px, 2.5vw, 26px);
+        padding-left: 0em;
     }
     .backendtxt li {border-left: 1px solid white;
     padding-left: 1em;
@@ -352,7 +356,7 @@
 
 
     .skills li {
-        font-size: clamp(13px, 2.0vw, 18px);
+        font-size: clamp(16px, 2.0vw, 18px);
         list-style-type: none;
         padding-top: .4em;
     } 
@@ -564,9 +568,40 @@
         .navbarelements { 
         align-items: center ;
         padding-left: 50px;
-        }    
+        }   
+        .frontend{
+            position: absolute;
+            
+            left: -8.12rem;
+            top: 2px;
+    
+        }
+        .design{
+            
+            
+            top: -16px;
+            left: 15rem;
+        }
+        .backend{
+            position: absolute;
+            
+            left:27rem;
+            top: 5px;
+        }
+
+        .skills {
+            position: absolute;
+            left: -9em;
+            top: 0em;
+            
+        }
+
+   
+    
 
     } 
+
+    
 
     
 
@@ -642,21 +677,22 @@
         /* page2 */
         .frontend{
             position: absolute;
-            width: 8rem;
+            width: 10.5rem;
             left: -8.12rem;
             top: 2px;
     
         }
         .design{
             
-            width: 4rem;
+            width: 5.3rem;
             top: -5px;
-            left: .2rem;
+            left: 3rem;
         }
         .backend{
             position: absolute;
-            width: 6.2rem;
-            left:4.5rem;
+            width: 7.7rem;
+            left:9.0rem;
+            top: 5px;
         }
 
         .frontendtxt
@@ -675,8 +711,9 @@
 
     .backendtxt
     {
-        
-        left: 15rem;  top: 10.5rem;
+        left: 15rem;
+        padding-left: 3em;
+          top: 10.5rem;
     }
     
 
