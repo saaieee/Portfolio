@@ -549,7 +549,7 @@
     }
 
 
-    @media only screen and (max-width: 1300px) and (min-width: 1000px){
+    @media only screen and (max-width: 1400px) and (min-width: 1000px){
         .image-container {
             position: absolute;
             top:10%;
@@ -568,7 +568,9 @@
         .navbarelements { 
         align-items: center ;
         padding-left: 50px;
-        }   
+        }  
+        
+        /** page2 **/
         .frontend{
             position: absolute;
             
@@ -596,7 +598,16 @@
             
         }
 
-   
+        /** page3**/
+        .projectfont {
+            padding: 1em 0 0 1em;
+        }
+        .projects {
+            
+            padding: 0 0 0 1em;
+            
+        }
+    
     
 
     } 
@@ -716,6 +727,20 @@
           top: 10.5rem;
     }
     
+
+    /** page3**/
+    .projectfont {
+        padding: 1em 0 0 .75em;
+    }
+    .projects {
+        
+        padding: 0 0 0 1.5em;
+        
+    }
+    .projects img {
+        width: clamp(8rem, 35vw, 18rem);
+        
+    }
 
     }
     
