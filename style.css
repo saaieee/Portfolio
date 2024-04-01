@@ -874,7 +874,7 @@
     
      
        
-    @media only screen and (max-width: 416px) and (min-width: 250px) {
+    @media only screen and (max-width: 400px) and (min-width: 250px) {
     
         .design, .frontend, .backend{
             
