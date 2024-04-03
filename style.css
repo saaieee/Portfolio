@@ -781,11 +781,14 @@
     .omega, .james {
         
        
-        padding: 7px 10px 10px 20px; 
-        width: 150px; }
+        position: absolute;
+        right: 1em;
+       
+        padding: 4px ; 
+        width: 140px;  }
     
         .omega img, .james img {
-            transform: translateX(-300%) scaleX(-1); 
+            transform: translateX(-500%) scaleX(-1); 
             }
 
     .omega p, .omega span,.james p, .james span { 
@@ -879,36 +882,7 @@
     
      
        
-    @media only screen and (max-width: 420px) and (min-width: 250px) {
-    
 
-        
-
-    .omega, .james {
-        position: absolute;
-        right: 1em;
-       
-        padding: 4px ; 
-        width: 140px; }
-    
-        .omega img, .james img {
-            
-        transform: translateX(-600%) scaleX(-1);}
-      
-
-    .omega p, .omega span,.james p, .james span { 
-        font-size: 13px ;
-    }
-
-    .contact p {
-        
-        margin-right: 1em;
-    }
-    
-        
-        
-    
-    }
 
     @media only screen and (max-width: 410px) and (min-width: 200px) {
     
@@ -937,5 +911,12 @@
         
           
     
-}}
+}
+.contact p {
+        font-size:12px;
+    margin-right: 0em;
+}
+.lilaboutme p {
+    font-size: 12px;
+  }}
     
