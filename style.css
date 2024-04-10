@@ -24,6 +24,7 @@
         text-decoration: none;
     }
 
+    
 
 
     .navbar li {
@@ -380,6 +381,8 @@
         height: 100vh
     }
 
+
+    
     .projectfont {
         display: flex;
         justify-content: flex-start;
@@ -407,6 +410,8 @@
         transform: translateY(-5%);
     }
 
+    
+
     .page4 {
         background-image: url("./img/pg4background.jpg") ;
         background-size: cover;
@@ -418,6 +423,7 @@
         font-family: var(--main-font-light);
         
     }
+
 
 
     .education {
@@ -584,6 +590,10 @@
         align-items: center ;
         padding-left: 50px;
         }  
+
+        .textshadow {
+            background-color: #e0ded7;
+        }
         
         /** page2 **/
         .frontend{
@@ -644,6 +654,11 @@
     
     @media only screen and (max-width: 1000px) and (min-width: 300px) {
         
+        .textshadow {
+            background-color: #e0ded7;
+        }
+
+
         .image-container {
             top:58%;
         right: 13%;}
@@ -884,7 +899,7 @@
        
 
 
-    @media only screen and (max-width: 410px) and (min-width: 200px) {
+    @media only screen and (max-width: 435px) and (min-width: 200px) {
     
         .frontend{
             position: absolute;
@@ -914,7 +929,7 @@
 }
 .contact p {
         font-size:12px;
-    margin-right: 0em;
+    margin-right: 0.6em;
 }
 .lilaboutme p {
     font-size: 12px;
