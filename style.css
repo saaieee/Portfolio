@@ -46,7 +46,7 @@
 
     .section2 { font-family: var(--main-font-light);
         display: inline-block;
-        padding: 150px 35px ; 
+        padding: 150px 90px ; 
         margin: 0;
 
     }
@@ -381,6 +381,7 @@
         height: 100vh
     }
 
+    
 
     
     .projectfont {
@@ -624,6 +625,9 @@
         }
 
         /** page3**/
+        .page3 {
+            height: 150vh
+        }
         .projectfont {
             padding: 1em 0 0 1em;
         }
@@ -770,6 +774,9 @@
     
 
     /** page3**/
+    .page3 {
+        height: 200vh
+    }
     .projectfont {
         padding: 1em 0 0 .75em;
     }
@@ -852,12 +859,13 @@
     
     @media only screen and (max-width: 1000px) and (min-width: 650px) {
         .page2stuff{
+            border-radius: 2rem;
             display: flex;
-         width: clamp(14rem, 35vw, 20rem);
-            height: 40rem;
+            width: 16rem;
+            height: 30rem;
             position: absolute;
             right: 0rem;
-            top: 2rem;
+            top: 4rem;
         }
     }
 
