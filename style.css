@@ -5,6 +5,8 @@
         --main-font-heavy-italics: 'Roboto Slab','Molde Expanded Heavy Italic', 'Molde Expanded', 'Helvetica';
         --main-font-blur:'Bad Coma', 'Russo One','Helvetica';
         --primary-color: #d30000;
+        --primary-color2: #dd2137;  
+        --secondary-color: #fbe4ce; 
 
     }
 
@@ -24,19 +26,24 @@
         text-decoration: none;
     }
 
-    
+   
 
+  
 
     .navbar li {
-        transition-property: transform;
-        transition-duration: 0.3s;
-        transition-timing-function: ease;
-        transition-delay: 0s;
+        
+        background-color: #e0ded7;
+    }
+    .navbar li:hover {
+        
+            transition-property: transform;
+            transition-duration: 0.3s;
+            transition-timing-function: ease;
+            transition-delay: 0s;
+            transform: translateY(-4px);
+        
     }
 
-    .navbar li:hover {
-        transform: translateY(-4px);
-    } 
     .logo
     { width: 35px;
         margin-left:-660px ;
@@ -228,6 +235,7 @@
 
     .scrolldown
     {
+        transform: translateY(-80px);
         position: relative;
         width: 50px;
         background-color: black;
@@ -377,7 +385,7 @@
         position:relative ;
         margin: 0;
         padding: 0;
-        color: white;
+        color: var(--secondary-color);
         height: 100vh
     }
 
@@ -592,9 +600,7 @@
         padding-left: 50px;
         }  
 
-        .textshadow {
-            background-color: #e0ded7;
-        }
+        
         
         /** page2 **/
         .frontend{

@@ -29,3 +29,4 @@ document.addEventListener('DOMContentLoaded', function() {
       fullText.style.display = 'block';   
   });
 });
+
