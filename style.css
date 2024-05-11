@@ -133,7 +133,7 @@
     .whoyou {
     font-family: var(--main-font-heavy-italics);
     font-size: 18px;
-    color: #cfcaca ;
+    color: #978c8c ;
     
     }
 
@@ -164,6 +164,10 @@
         width: 80px;
         
     }
+
+
+    
+
 
     .image-container {
         position: absolute;
@@ -261,7 +265,7 @@
         margin: 0;
         padding: 0;
         color: white;
-        height: 100vh;
+        height: 110vh;
         
     }
 
@@ -277,18 +281,11 @@
         display: flex;
         justify-content: center;
         font-size: clamp(16px, 2.5vw, 36px);
-        margin: 0 0 1em 0;
-        padding-top: 2em;
+        margin: 0;
+        padding: 2em;
     }
 
-    .image-container2 {
-
-            position: absolute;
-            display: block;
-            flex-direction: row;
-            align-items: center;
-            left: 9rem;        
-    }
+    
 
 
     .image-container2 img {
@@ -302,31 +299,26 @@
         transform: translateY(-5%);
     }
 
+    .parenttt
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
 
     .frontend{
-        position: absolute;
-        
-        width: 23rem;
-        left: 180px;
-        top: 2px;
-
+          width: 23rem;
     }
-    .design{
-        position: absolute;
+    .design{ 
         width:12rem;
-        
-        top: -20px;
-        left: 550px;
     }
     .backend{
-        position: absolute;
         width:17.6rem;
-        
-        left: 750px;
     }
 
     .skills {
-        font-size: 26px;
+        font-size: clamp(16px, 2.5vw, 26px);
         font-family: var(--main-font-light) ;
         display: flex;
         flex-direction: row;
@@ -335,48 +327,25 @@
         
     }
 
-    .frontendtxt
-    {
-        position: absolute;
-        left: 26rem;
-        top: 24rem; 
-        font-size: clamp(16px, 2.5vw, 26px);
-    }
+    .subtxt ul li{
 
-    .frontendtxt li
-    { border-left: 1px solid white;
-        padding-left: 1em;}
+        font-size: clamp(10px, 3.0vw, 18px); }
 
-    .designtxt
-    {
-        position: absolute;
-        left: 45rem; top: 24rem;
-        font-size: clamp(16px, 2.5vw, 26px);
-    }
-    .designtxt li {border-left: 1px solid white;
-        padding-left: 1em;
+    .subtxt li {
+            border-left: 1px solid white;
+            padding-left: 1em;
+            list-style-type: none;
+            padding-top: .4em;
         }
-
-    .backendtxt
-    {
-        position: absolute;
-        left: 59rem; top: 24rem;
-        font-size: clamp(16px, 2.5vw, 26px);
-        padding-left: 0em;
-    }
-    .backendtxt li {border-left: 1px solid white;
-    padding-left: 1em;
-}
-
-
-    .skills li {
-        font-size: clamp(10px, 3.0vw, 18px);
-        list-style-type: none;
-        padding-top: .4em;
-    } 
+        
     .skills div {
-        margin-right: 4em;
+        margin: 0em 4em 0em 4em;
     } 
+    .textparent {
+
+        display: flex;
+
+    }
 
 
     .page3 {
@@ -469,7 +438,14 @@
         position:absolute;
         left: 4em ;
         width: 6.8rem ;
-        bottom: -1.5em;
+        top: -1.5em;
+    }
+
+    .teakadai { 
+        position:absolute;
+        left: 12em ;
+        width: 25rem ;
+        top: 15.5em;
     }
 
 
@@ -573,17 +549,43 @@
 
     }
 
-    .thankyou {
-        text-align: center;
-        padding-top: 11em;
+   
+
+
+    .page6 {
+        background-color: #DF0007 ; 
+        height: 20vh;
+        margin: 0em;
+        padding: 0em;
     }
+    .thankyou {
+
+        text-align: center;
+
+        font-family: var(--main-font-light);
+
+        
+
+    }
+
+
+
+    .thankyou p {
+
+        margin: 0em;
+
+        padding: 0em;
+
+    }
+
+
 
 
     @media only screen and (max-width: 1400px) and (min-width: 1000px){
         .image-container {
             position: absolute;
             top:10%;
-            right: 2%;
+            right: 10%;
             margin: 0em;
                 }
 
@@ -600,35 +602,11 @@
         padding-left: 50px;
         }  
 
+        .textshadow {
+            background-color: #e0ded7;
+        }
         
         
-        /** page2 **/
-        .frontend{
-            position: absolute;
-            
-            left: -8.12rem;
-            top: 2px;
-    
-        }
-        .design{
-            
-            
-            top: -16px;
-            left: 15rem;
-        }
-        .backend{
-            position: absolute;
-            
-            left:27rem;
-            top: 5px;
-        }
-
-        .skills {
-            position: absolute;
-            left: -9em;
-            top: 0em;
-            
-        }
 
         /** page3**/
         .page3 {
@@ -738,46 +716,26 @@
         /* page2 */
         /* page2 */
         .frontend{
-            position: absolute;
             width: 10.5rem;
-            left: -8.12rem;
-            top: 2px;
-    
         }
         .design{
-            
-            width: 5.3rem;
-            top: -5px;
-            left: 3rem;
+            width: 5.3rem; 
         }
         .backend{
-            position: absolute;
             width: 7.7rem;
-            left:9.0rem;
-            top: 5px;
         }
 
-        .frontendtxt
-    {
-       
+        .subtxt{
         left: 2rem;
-        top: 10.5rem;
-    }
+        top: 10.5rem;}
 
 
-    .designtxt
-    {
-        
-        left: 9rem;  top: 22.5rem;
-    }
+        .designtxt {
+            position: absolute;
+            top: 50%;
+            left: 40%; }
 
-    .backendtxt
-    {
-        left: 15rem;
-        padding-left: 3em;
-          top: 10.5rem;
-    }
-    
+  
 
     /** page3**/
     .page3 {
@@ -913,34 +871,18 @@
        
 
 
-    @media only screen and (max-width: 435px) and (min-width: 200px) {
+    @media only screen and (max-width: 435px) {
     
         .frontend{
-            position: absolute;
             width: 7.5rem;
-            left: -8.12rem;
-            top: 2px;
-    
         }
         .design{
-            
             width: 3.8rem;
-            top: -4px;
-            left: -.5rem;
         }
         .backend{
-            position: absolute;
-            width: 6rem;
-            left:3.5rem;
-            top: 5px;
+            width: 5.6rem;
         }
-        .backendtxt
-    {
-        left: 10rem;
         
-          
-    
-}
 .contact p {
         font-size:12px;
     margin-right: 0.6em;
