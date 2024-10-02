@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       if (targetElement) {
         targetElement.scrollIntoView({
-          behavior: "smooth",
+          behavior: "smooth"
         });
       }
     });

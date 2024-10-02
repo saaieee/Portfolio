@@ -222,7 +222,10 @@ display: flex;
     align-items: center;
 }
 
+
+
 .mockup1 {
+    display: inline;
     width: 600px;
     padding: 10em 0 0 9em;
 }
